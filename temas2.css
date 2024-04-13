@@ -1,0 +1,123 @@
+body{
+    background-color: #d56d6dfa;
+}
+#imagense{
+    width: 170px;position:relative;margin: 0 auto;
+
+}
+header{
+    background-color:rgb(233, 235, 134) ;
+}
+.encabezado{
+    width: 940px;
+    position: relative;
+    top: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;;
+    right: 140px;
+}
+
+nav li{
+ display: inline;margin: 0 0 0 15px;
+
+}
+nav a{
+    color: black;
+    font-weight:bold ;
+    font-size: 22px;
+    text-decoration: none;
+}
+.tema{
+    width: 5px;
+    padding: 100px;size: 30px;
+    
+}
+.tema li{
+    display: inline-block;
+   text-align: center;
+  
+   margin: 20px;border-color: rgb(8, 72, 48);
+   border-width: 5px;
+   border-style:dashed;
+  
+}
+.temas1{
+    display: inline;
+    width: 170px;
+   margin: 0 0 0 10px;
+   top: 200px;
+   
+}
+.temas2{
+    display: inline;
+    width: 170px;
+    top: 220px;
+   
+    margin: 0 0 0 10px;
+}
+.tema h2{
+    top: 110px;
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: rgba(255, 0, 0, 0.961);
+
+}
+.tema li:hover{
+    color:rgb(230, 10, 10);
+    border-color: red;
+}
+
+main{
+
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+
+ form label{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+ }
+
+ form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+ }
+ .envio{
+  width: 200px;
+  margin: 30px 50px;
+  background: rgb(102, 144, 47);
+  border-radius: 14px;
+  border:none;
+  font-size: 18px;
+ }
+ .envio:hover{
+    background: green;
+ }
+ table{
+    margin: 40px 40px 40px 40px;
+    background: rgb(139, 139, 232);
+    
+ }
+ thead{
+    
+    color: white;
+    font-weight:bold;
+    
+
+ }
+ td{
+    border: 2px solid black;
+
+ }
